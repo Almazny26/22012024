@@ -1,0 +1,79 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+
+    }
+
+    .for {
+        &__item {
+            height: 268px;
+
+            &_1 {
+                background-image: url(../img/relax_tablet.jpg );
+
+            }
+
+            &_2 {
+                background-image: url(../img/work_tablet.jpg );
+            }
+
+            &_3 {
+                background-image: url(../img/kitchen_tablet.jpg );
+                height: 265px;
+            }
+
+            &_4 {
+                background-image: url(../img/children_tablet.jpg );
+                height: 265px;
+            }
+
+            &_5 {
+                background-image: url(../img/tub_tablet.jpg );
+                height: 265px;
+            }
+        }
+    }
+
+    .product-box__offer {
+        column-gap: 29px;
+        row-gap: 39px;
+
+        &_catalog {
+            column-gap: 29px;
+            row-gap: 30px;
+        }
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .product-box__link_catalog {
+        margin-top: 31px;
+    }
+
+    .cart {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 64px;
+
+        &__form {
+            height: 556px;
+            width: 100%;
+        }
+
+        &__button_continue {
+            background: #000;
+            color: #fff;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 835px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+}
